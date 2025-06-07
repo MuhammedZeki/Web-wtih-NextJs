@@ -21,9 +21,7 @@ const config: Config = {
           400: "#0D0D11",
           500: "#3E4548",
           600: "#323B44",
-          700: "#F4F4F4"
-
-
+          700: "#F4F4F4",
         }
     },
      fontFamily:{
@@ -32,7 +30,17 @@ const config: Config = {
         roboto: ["Roboto", "sans-serif"],
         pacifico: ["Pacifico", "cursive"],
 
-      },
+    },
+      keyframes: {
+         gradient: {
+           '0%': { backgroundPosition: '0% 50%' },
+           '50%': { backgroundPosition: '100% 50%' },
+           '100%': { backgroundPosition: '0% 50%' },
+         },
+       },
+       animation: {
+         gradient: 'gradient 8s linear infinite'
+       },
   },
   plugins: [],
 };
