@@ -6,7 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 const Hero = () => {
     return (
-        <div className="text-mycolor-700">
+        <div className="text-mycolor-700 container mx-auto md:px-24">
             <div className="grid grid-cols-1 md:grid-cols-12">
                 <motion.div
                     initial={{ opacity: 0, scale: 0.5 }}
@@ -16,7 +16,7 @@ const Hero = () => {
                 >
                     <h1 className="text-mycolor-700 mb-4 text-2xl md:text-3xl lg:text-4xl font-semibold font-poppins">
                         <span
-                            className="text-transparent bg-clip-text
+                            className="text-transparent bg-clip-text text-5xl
                         bg-gradient-to-r from-mycolor-200 to-mycolor-100"
                         >
                             Hello I&#39;m

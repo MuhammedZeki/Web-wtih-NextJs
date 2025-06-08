@@ -15,14 +15,14 @@ const navLinks = [
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <nav className="fixed mx-auto !border-b !border-mycolor-300 top-0 left-0 right-0 z-10  bg-opacity-85">
+        <nav className="fixed mx-auto !border-b bg-mycolor-400 !border-mycolor-300 top-0 left-0 right-0 z-10  bg-opacity-85">
             <div className="lg:container mx-auto py-3 px-8 md:px-8 ">
                 <div className="mx-auto flex items-center justify-between flex-wrap py-2 lg:py-4 px-2">
                     <Link
                         href={"/"}
                         className="text-2xl md:text-4xl text-mycolor-700 font-semibold font-pacifico"
                     >
-                        My Portfolio
+                        MuhammedDev
                     </Link>
 
                     <div className="block md:hidden text-mycolor-700">
