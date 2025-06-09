@@ -58,6 +58,7 @@ const Archive = () => {
 
 
                                 </div>
+                                <div className='text-mycolor-700 text-2xl mt-4 font-poppins font-semibold'>{arc.metric}</div>
                             </div>
                         );
                     })}
